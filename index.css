@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  flex-grow: 1;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#post-slider, #user-list {
+  margin-bottom: 20px;
+}
+
+#user-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#user-list img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin: 25px;
+}
+
+#user-list div {
+  cursor: pointer;
+}
+
+#slider-container {
+  display: flex;
+}
+
+.slide {
+  width: 32%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  border: solid 2px #333;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+#prev, #next {
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.slide h3::first-letter {
+  text-transform: uppercase;
+  color: red; 
+}
+
+#user-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+}
+
+.user-card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.user-card img {
+  border-radius: 75px;
+}
